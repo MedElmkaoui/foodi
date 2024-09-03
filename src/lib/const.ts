@@ -7,7 +7,7 @@ export const Categories = [
     {id: 3, label: 'Browse All', status: '(255 Items)', img: '/categories/04.png'},
 ]
 
-export const DataSpecialDishes = [
+export const specialDishes = [
     {
         id: 0,
         title : 'Fattoush salad',
@@ -31,5 +31,32 @@ export const DataSpecialDishes = [
         description : 'Description of the item',
         price : '$23.00',
         rate: '4.5'
+    },
+]
+
+export const services = [
+    {
+        id: 0,
+        label : 'Catering',
+        img: '/services/01.png',
+        description : 'Delight your guests with our flavors and  presentation'
+    },
+    {
+        id: 1,
+        label : 'Fast delivery',
+        img: '/services/02.png',
+        description : 'We deliver your order promptly to your door'
+    },
+    {
+        id: 2,
+        label : 'Online Ordering',
+        img: '/services/03.png',
+        description : 'Explore menu & order with ease using our Online Ordering '
+    },
+    {
+        id: 3,
+        label : 'Gift Cards',
+        img: '/services/04.png',
+        description : 'Give the gift of exceptional dining with Foodi Gift Cards'
     },
 ]
