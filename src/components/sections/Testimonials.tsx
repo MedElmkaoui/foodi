@@ -19,7 +19,7 @@ const Testimonials = ()=> {
             <div className="w-full space-y-8">
                 <Heading title="What Our Customers Say" subTitle="Testimonials" variant="left" />
                 <p className="xl:text-lg">
-                    “I had the pleasure of dining at Foodi last night, and I'm still raving about the experience! The attention to detail in presentation and service was impeccable”
+                    I had the pleasure of dining at Foodi last night, and I&aposm still raving about the experience! The attention to detail in presentation and service was impeccable
                 </p>
                 <div className="py-3.5 flex items-center gap-5">
                     <div className="flex selection:">
