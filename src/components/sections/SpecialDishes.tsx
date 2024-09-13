@@ -18,7 +18,7 @@ const SpecialDishes = ()=> {
             <div className="my-12 grid lg:grid-cols-3 gap-12 ">
                 {
                     specialDishes.map((ele)=> (
-                        <div className="relative bg-white py-12 px-12 flex flex-col gap-3.5 items-center shadow-xl rounded-2xl">
+                        <div key={ele.id} className="relative bg-white py-12 px-12 flex flex-col gap-3.5 items-center shadow-xl rounded-2xl">
                             <Image src={ele.img} alt='' width={250} height={250} />
                             <div className="w-full space-y-3 my-3.5">
                                 <h2 className="text-xl xl:text-3xl font-bold">{ele.title}</h2>
