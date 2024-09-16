@@ -11,7 +11,7 @@ const Catagories = ()=> {
 
                 {
                     Categories.map((ele)=> (
-                        <div key={ele.id} className="w-fit border border-gray lg:w-full space-y-4 bg-white shadow-xl flex flex-col items-center justify-center gap-1.5 py-12 px-16 rounded-3xl">
+                        <div key={ele.id} className="w-fit border hover:border-primary border-gray lg:w-full space-y-4 bg-white shadow-xl flex flex-col items-center justify-center gap-1.5 py-12 px-16 rounded-3xl">
                             <div className="rounded-full flex items-center justify-center bg-secondary p-1.5 w-24 h-24">
                                 <Image src={ele.img} alt="" width={200} height={200}  />
                             </div>

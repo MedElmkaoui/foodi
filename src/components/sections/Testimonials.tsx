@@ -8,9 +8,9 @@ const Testimonials = ()=> {
             <div className="relative flex justify-center">
                 <div className="relative bg-primary rounded-t-full rounded-b-2xl h-[330px] w-[330px] lg:h-[450px] lg:w-[500px]">
                     <img src="/testimonials/01.png" alt="" className="absolute bottom-0  lg:w-[450px] w-[350px]" />
-                    <img src="/testimonials/02.png" alt="" className="absolute lg:bottom-52 bottom-32 -right-5  w-[45px]" />
-                    <img src="/testimonials/03.png" alt="" className="absolute lg:bottom-52 bottom-32 -left-5  w-[45px]" />
-                    <div className="bg-white shadow-lg rounded-full py-2.5 px-6 absolute -bottom-3 lg:-right-16 -right-3 ">
+                    <img src="/testimonials/02.png" alt="" className="absolute lg:bottom-52 bottom-32 -right-5  w-[45px] animate-bounce duration-500" />
+                    <img src="/testimonials/03.png" alt="" className="absolute lg:bottom-52 bottom-32 -left-5  w-[45px] animate-bounce" />
+                    <div className="bg-white shadow-lg rounded-full py-2.5 px-6 absolute -bottom-3 lg:-right-16 -right-3 hover:animate-bounce ">
                         <p className="">Our Best Chef 😁</p>
                     </div>
                 </div>

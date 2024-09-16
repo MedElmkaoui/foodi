@@ -41,9 +41,9 @@ const Footer = ()=> {
             </div>
             <div className="p-6 flex items-center flex-col lg:flex-row lg:gap-12 gap-3.5">
                 <div className="flex items-center gap-3.5">
-                    <RiFacebookLine size={35}  className="bg-primary text-white rounded-full p-2.5"/> 
-                    <RiInstagramLine size={35} className="bg-white text-black rounded-full p-2.5" /> 
-                    <RiYoutubeLine size={35} className="bg-white text-black rounded-full p-2.5" /> 
+                    <RiFacebookLine size={35}  className="hover:bg-primary bg-white hover:text-white text-black rounded-full p-2.5 cursor-pointer"/> 
+                    <RiInstagramLine size={35} className="hover:bg-primary bg-white hover:text-white text-black rounded-full p-2.5 cursor-pointer" /> 
+                    <RiYoutubeLine size={35} className="hover:bg-primary bg-white hover:text-white text-black rounded-full p-2.5 cursor-pointer" /> 
                 </div>
                 <span className="text-sm">Copyright 2023 Dscode | All rights reserved</span>
             </div>
