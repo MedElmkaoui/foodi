@@ -10,7 +10,7 @@ const Testimonials = ()=> {
                     <img src="/testimonials/01.png" alt="" className="absolute bottom-0  lg:w-[450px] w-[350px]" />
                     <img src="/testimonials/02.png" alt="" className="absolute lg:bottom-52 bottom-32 -right-5  w-[45px] animate-bounce duration-500" />
                     <img src="/testimonials/03.png" alt="" className="absolute lg:bottom-52 bottom-32 -left-5  w-[45px] animate-bounce" />
-                    <div className="bg-white shadow-lg rounded-full py-2.5 px-6 absolute -bottom-3 lg:-right-16 -right-3 hover:animate-bounce ">
+                    <div className="bg-white shadow-lg rounded-full py-2.5 px-6 absolute -bottom-3 lg:-right-16 -right-3 animate-y-toggle ">
                         <p className="">Our Best Chef 😁</p>
                     </div>
                 </div>

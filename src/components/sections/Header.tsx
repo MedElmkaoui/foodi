@@ -43,10 +43,10 @@ const Header = ()=> {
                     <div className="relative bg-primary lg:w-[500px] lg:h-[500px] w-[380px] h-[380px] rounded-full">
                         <Image src={'/hero.png'} alt="hero" width={500} height={500} className="absolute -top-12 -left-5"  />
                     </div>
-                    <div className="bg-white shadow-sm rounded-full py-2.5 px-6 absolute top-5 lg:-left-10 left-5">
+                    <div className="bg-white shadow-sm rounded-full py-2.5 px-6 absolute top-5 lg:-left-10 left-5 animate-y-toggle">
                         <p className="text-meta-red">Hot spicy Food 🌶</p>
                     </div>
-                    <div className="z-1 absolute lg:-left-10 left-16 lg:bottom-2 -bottom-10 flex flex-col lg:flex-row lg:gap-12 gap-3">
+                    <div className="z-1 absolute lg:-left-10 left-16 lg:bottom-2 -bottom-10 flex flex-col lg:flex-row lg:gap-12 gap-3 animate-x-toggle">
                         <div className="bg-white rounded-xl w-[220px] shadow-lg py-2.5 px-2.5 flex gap-3.5 items-center">
                             <Image src={'/hero/01.png'} alt="" width={60} height={50}  />
                             <div>
