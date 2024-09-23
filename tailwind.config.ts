@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        'x-toggle': 'x-toggle 2s ease-in-out infinite',
-        'y-toggle': 'y-toggle 2s ease-in-out infinite',
+        'x-toggle': 'x-toggle 8s ease-in-out infinite',
+        'y-toggle': 'y-toggle 8s ease-in-out infinite',
       },
       keyframes: {
         'x-toggle': {
